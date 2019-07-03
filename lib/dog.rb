@@ -5,20 +5,21 @@
 
 class Dog
 
-def initialize(name)
-  @name = name
+def initialize
 end
 
-def name= (name)
-  @name = name
-end
+#setter - writer
+  def name= (name_dog)
+    @name = name_dog
 
-def name(name)
-  @name
-end
+  end
+#getter-reader
+  def name
+    @name
+  end
 
 def bark
-  puts "Woof!"
+  puts "woof!"
 end
 
 end
